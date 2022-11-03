@@ -1,0 +1,88 @@
+{
+  "enabled_zones": [1, 2, 3, 4],
+  "device_id": 0,
+  "dump_enabled": 1,
+  "dump_path": "dumps",
+  "sensors": [
+    {
+      "sensor": "mija",
+      "MAC": "A4:C1:38:C8:B9:83",
+      "location": "sypialnia+korytarz",
+      "zone": 1,
+      "gpio": 11
+    },
+    {
+      "sensor": "mija",
+      "MAC": "A4:C1:38:0D:CC:C1",
+      "location": "pokoj Gabrysia",
+      "zone": 2,
+      "gpio": 3
+    },
+    {
+      "sensor": "mija",
+      "MAC": "A4:C1:38:24:54:C9",
+      "location": "pokoj pusty",
+      "zone": 3,
+      "gpio": 5
+    },
+    {
+      "sensor": "mija",
+      "MAC": "A4:C1:38:AF:8C:E3",
+      "location": "lazienka",
+      "zone": 4,
+      "gpio": 7
+    }
+  ],
+  "settings": {
+    "zones": {
+      "1": {
+        "day": {
+          "hour": 7,
+          "minute": 0,
+          "temperature": 20.0
+        },
+        "night": {
+          "hour": 20,
+          "minute": 55,
+          "temperature": 19.0
+        }
+      },
+      "2": {
+        "day": {
+          "hour": 7,
+          "minute": 0,
+          "temperature": 19.0
+        },
+        "night": {
+          "hour": 19,
+          "minute": 0,
+          "temperature": 19.0
+        }
+      },
+      "3": {
+        "day": {
+          "hour": 7,
+          "minute": 0,
+          "temperature": 19.0
+        },
+        "night": {
+          "hour": 19,
+          "minute": 0,
+          "temperature": 19.0
+        }
+      },
+      "4": {
+        "day": {
+          "hour": 7,
+          "minute": 0,
+          "temperature": 20.0
+        },
+        "night": {
+          "hour": 19,
+          "minute": 0,
+          "temperature": 19.0
+        }
+      }
+    }
+  }
+}

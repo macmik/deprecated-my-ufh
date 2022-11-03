@@ -1,0 +1,69 @@
+{
+  "enabled_zones": [1, 2, 3],
+  "device_id": 0,
+  "dump_enabled": 1,
+  "dump_path": "dumps",
+  "sensors": [
+    {
+      "sensor": "mija",
+      "MAC": "A4:C1:38:58:F4:47",
+      "location": "lazienka",
+      "zone": 1,
+      "gpio": 3
+    },
+    {
+      "sensor": "mija",
+      "MAC": "A4:C1:38:50:D3:A1",
+      "location": "salon+kuchnia+przedpokoj",
+      "zone": 2,
+      "gpio": 5
+    },
+    {
+      "sensor": "mija",
+      "MAC": "A4:C1:38:52:CF:61",
+      "location": "gabinet",
+      "zone": 3,
+      "gpio": 7
+    }
+  ],
+  "settings": {
+    "zones": {
+      "1": {
+        "day": {
+          "hour": 7,
+          "minute": 0,
+          "temperature": 22.0
+        },
+        "night": {
+          "hour": 20,
+          "minute": 55,
+          "temperature": 19.0
+        }
+      },
+      "2": {
+        "day": {
+          "hour": 7,
+          "minute": 0,
+          "temperature": 21.0
+        },
+        "night": {
+          "hour": 19,
+          "minute": 0,
+          "temperature": 19.0
+        }
+      },
+      "3": {
+        "day": {
+          "hour": 7,
+          "minute": 0,
+          "temperature": 20.0
+        },
+        "night": {
+          "hour": 19,
+          "minute": 0,
+          "temperature": 19.0
+        }
+      }
+    }
+  }
+}
